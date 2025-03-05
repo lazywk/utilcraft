@@ -1,6 +1,6 @@
 {
   "name": "utilcraft",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React komponentlar, hooklar va util funksiyalarini tez yaratish uchun CLI",
   "main": "bin/index.js",
   "bin": {
