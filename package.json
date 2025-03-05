@@ -1,0 +1,23 @@
+{
+  "name": "utilcraft",
+  "version": "1.0.0",
+  "description": "React komponentlar, hooklar va util funksiyalarini tez yaratish uchun CLI",
+  "main": "bin/index.js",
+  "bin": {
+    "utilcraft": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4"
+  }
+}
