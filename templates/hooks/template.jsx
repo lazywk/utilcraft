@@ -1,7 +1,6 @@
-import React from "react";
+import { useState } from "react";
 
-const TemplateComponent = () => {
-  return <div>Template Component</div>;
+export const useTemplateHook = () => {
+  const [value, setValue] = useState(0);
+  return { value, setValue };
 };
-
-export default TemplateComponent;
