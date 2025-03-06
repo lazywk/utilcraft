@@ -1,7 +1,12 @@
 {
   "name": "utilcraft",
   "version": "1.0.2",
-  "description": "React komponentlar, hooklar va util funksiyalarini tez yaratish uchun CLI",
+"description": "A CLI tool for generating React components, hooks, and utility functions automatically.",
+  "homepage": "https://github.com/lazywk/utilcraft",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lazywk/utilcraft.git"
+  },
   "main": "bin/index.js",
   "bin": {
     "utilcraft": "./bin/index.js"

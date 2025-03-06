@@ -1,64 +1,52 @@
 # UtilCraft
 
-**UtilCraft** — bu React loyihalari uchun komponentlar, hooklar va util funksiyalarini avtomatik yaratishga yordam beruvchi CLI vositasi.
+UtilCraft is a CLI tool that helps generate components, hooks, and utility functions for React projects automatically.
 
-REPO: https://github.com/lazywk/utilcraft
+## Getting Started
 
-## 📦 Ishga tushirish
+UtilCraft does not require installation. You can run it directly using:
 
-UtilCraft ni o‘rnatish shart emas! Quyidagi buyruq orqali to‘g‘ridan-to‘g‘ri ishga tushirish mumkin:
-
-```bash
+```
 npx utilcraft component Button
 ```
 
-yoki agar `utilcraft` loyihangiz ichida mavjud bo‘lsa:
+or if it's already in your project:
 
-```bash
+```
 node path/to/utilcraft/bin/index.js component Button
 ```
 
-## 🚀 Foydalanish
+## Usage
 
-UtilCraft quyidagi buyruqlarni qo‘llab-quvvatlaydi:
+### Generate a Component
 
-### 🎨 Komponent yaratish
-
-```bash
+```
 npx utilcraft component Button
 ```
 
-Agar loyiha `src/` papkasidan foydalansa, komponent `src/components/` ichida yaratiladi.
-Aks holda, `components/` papkasida yaratiladi.
+The component will be created inside `src/components/` or `components/`.
 
-### 🪝 Hook yaratish
+### Generate a Hook
 
-```bash
+```
 npx utilcraft hook useTemplateHook
 ```
 
-Yangi hook `src/hooks/` yoki `hooks/` papkasida yaratiladi.
+The hook will be created inside `src/hooks/` or `hooks/`.
 
-### 🔧 Util funksiyani yaratish
+### Generate a Utility Function
 
-```bash
+```
 npx utilcraft util formatDate
 ```
 
-Util funksiya `src/utils/` yoki `utils/` papkasida yaratiladi.
+The utility function will be created inside `src/utils/` or `utils/`.
 
-## ⚙️ Xususiyatlari
+## Contributing
 
-✅ **`src/` papkasining mavjudligini avtomatik tekshiradi** — agar `src/` bo‘lsa, ichiga joylashtiradi, aks holda loyiha ildiziga joylashtiradi.
-✅ **Fayl mavjud bo‘lsa, almashtirishni so‘raydi.**
-✅ **TypeScript (`.tsx`, `.ts`) yoki JavaScript (`.jsx`, `.js`) formatlarini tanlash imkoniyati.**
-✅ **`fs-extra` orqali papkalar avtomatik yaratiladi.**
+To contribute, submit a pull request or open an issue on the GitHub repository.
 
-## 💡 Loyiha hissa qo‘shish
+## License
 
-Agar siz UtilCraft'ni yaxshilashni istasangiz, `GitHub` repozitoriyasiga pull request yuborishingiz yoki muammolarni `issue` sifatida qo‘shishingiz mumkin.
-
-## 📄 Litsenziya
-
-MIT litsenziyasi asosida tarqatiladi. Erkin foydalanish mumkin! 🎉
+Distributed under the MIT License.
 
