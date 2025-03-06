@@ -1,7 +1,7 @@
 {
   "name": "utilcraft",
-  "version": "1.0.2",
-"description": "A CLI tool for generating React components, hooks, and utility functions automatically.",
+  "version": "1.0.3",
+  "description": "A CLI tool for generating React components, hooks, and utility functions automatically.",
   "homepage": "https://github.com/lazywk/utilcraft",
   "repository": {
     "type": "git",
